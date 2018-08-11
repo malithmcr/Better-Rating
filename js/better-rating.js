@@ -44,10 +44,11 @@
                       $(this).removeClass('hover');
                     });
                   });
-                  
+
                 $(this).submit(function( event ) {
                     event.preventDefault();
                     var formData = $(this).serializeArray();
+                    console.log(formData);
                     
                     $('#better-rating-list').append(self.template(formData));
                 });
@@ -69,7 +70,7 @@
                 list += '</div>';
                 list += '</div>';
                 list += '<div class="content">';
-                list += '<p>'+data[3].value+'</p>';
+                list += '<p>'+data[2].value+'</p>';
                 list += '</div>';
                 list += '</li>';
                 return list;
