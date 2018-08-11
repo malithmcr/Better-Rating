@@ -44,6 +44,7 @@
                       $(this).removeClass('hover');
                     });
                   });
+                  
                 $(this).submit(function( event ) {
                     event.preventDefault();
                     var formData = $(this).serializeArray();
@@ -55,12 +56,9 @@
 
         /** creation of the list template*/
         template: function(data) {
-            data[0].value
-
                 var rating = '<i class="fa fa-star selected" data-rate="1"></i>';
                 for(var i =1; i < data[1].value; i++) {
                     rating += '<i class="fa fa-star selected" data-rate="1"></i>';
-                    console.log(rating);
                 }
                 var list = '<li>';
                 list += '<div class="profile-rating-wrapper">';
