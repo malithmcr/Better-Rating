@@ -11,6 +11,4 @@ FontAwesome
 
 ### Demo
 
-```
 [Demo Click Here](https://malithmcr.github.io/better-rating/)
-```
