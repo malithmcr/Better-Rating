@@ -12,5 +12,5 @@ FontAwesome
 ### Demo
 
 ```
-<a href="https://malithmcr.github.io/better-rating/">Demo Click Here</a>
+[Demo Click Here](https://malithmcr.github.io/better-rating/)
 ```
