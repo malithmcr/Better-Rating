@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html class="no-js ajax-content" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Better Rating - jQuery Rating System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="author" content="craftcode">
+  <meta name="Description" content="Better Rating - Rating System for anything." />
+  <!--demo styles-->
+  <link href="css/reset.css" rel="stylesheet" type="text/css" media="screen" />
+  <link href="css/styles.css" rel="stylesheet" type="text/css" media="screen" />
+  <link href="css/responsive.css" rel="stylesheet" type="text/css" media="screen" />
+  
+  <!--plugin styles-->
+  <link href="css/better-rating.css" rel="stylesheet" type="text/css" media="screen" />
+
+  <!--External fonts-->
+  <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <!--Favicon for this site -->
+  <link rel="icon" type="image/ico" href="favicon.png"/>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="wrapper">
+      <div class="logo">
+        <a href="#"><img src="images/logo.png"  alt="logo"/></a>
+      </div>
+      <!-- Mobile menu Icon -->
+      <div class="mobile-menu-icon">
+        <i class="fa fa-bars"></i>
+      </div>
+      <!-- start main nav -->
+      <nav id="main-nav">
+        <ul>
+          <li>
+            <a href="https://github.com/malithmcr" class="active">Download</a>
+          </li>
+          <li>
+            <a href="https://github.com/malithmcr">Follow me on github</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- end main nav -->
+    </div>
+  </header>
+  <!-- ... End Header -->
+  <section id="demo-left">
+      <div class="better-rating">
+          <ul id="better-rating-list">
+              <li>
+                <div class="profile-rating-wrapper">
+                <div class="profile-pic">
+                    <img src="images/profile_pic.png" alt="" />
+                  </div>
+                  <div class="name">mALITH Wrote:</div>
+                  <div class="rating">
+                    <i class="fa fa-star selected" data-rate="1"></i>
+                    <i class="fa fa-star selected" data-rate="2"></i>
+                    <i class="fa fa-star selected" data-rate="3"></i>
+                    <i class="fa fa-star" data-rate="4"></i>
+                    <i class="fa fa-star" data-rate="5"></i>
+                  </div>
+                  </div>  
+                  <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae mi quis tortor convallis dignissim sit amet et nisi. Integer molestie sed tortor ut accumsan. Curabitur in est dignissim turpis lacinia suscipit vehicula vitae felis. Class aptent.
+                    </p>
+                  </div>
+              </li>
+
+          </ul>
+      </div>
+  </section>
+  <section id="demo-right">
+    <form action="#" method="get" id="better-rating-form">
+      <input type="text" name="name" placeholder="Your Name" id="">
+      <div class="rating">
+        <i class="fa fa-star" data-rate="1"></i>
+        <i class="fa fa-star" data-rate="2"></i>
+        <i class="fa fa-star" data-rate="3"></i>
+        <i class="fa fa-star" data-rate="4"></i>
+        <i class="fa fa-star" data-rate="5"></i>
+        <input type="hidden" id="rating-count" name="rating" value="0">
+      </div>
+      <input type="text" name="company-name" placeholder="Company Name" id="">
+      <textarea name="rate" id="" cols="30" rows="10"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+<!--  Javascript plugins -->
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/better-rating.js"></script>
+<!--  local Javascript file -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
